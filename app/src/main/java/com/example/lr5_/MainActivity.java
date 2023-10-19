@@ -16,8 +16,8 @@ import com.example.lr5_.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btn_form;
-    EditText FIO,Email;
+//    private Button btn_form;
+//    EditText FIO,Email;
     ActivityMainBinding binding;
 
     @Override
@@ -44,20 +44,20 @@ public class MainActivity extends AppCompatActivity {
             return true;
         });
 
-        setContentView(R.layout.activity_main);
-        FIO = findViewById(R.id.editText_FIO);
-        Email = findViewById(R.id.editTextEmail);
-        btn_form = findViewById(R.id.btn_form);
+//        setContentView(R.layout.activity_main);
+//        FIO = findViewById(R.id.editText_FIO);
+//        Email = findViewById(R.id.editTextEmail);
+//        btn_form = findViewById(R.id.btn_form);
 
-        btn_form.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                FIO.setText("");
-                Email.setText("");
-                Toast myToast= Toast.makeText(getApplicationContext(),"УСПЕХ!",Toast.LENGTH_SHORT);
-                myToast.show();
-            }
-        });
+//        btn_form.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                FIO.setText("");
+//                Email.setText("");
+//                Toast myToast= Toast.makeText(getApplicationContext(),"УСПЕХ!",Toast.LENGTH_SHORT);
+//                myToast.show();
+//            }
+//        });
     }
 
     private void replaceFragment(Fragment fragment){

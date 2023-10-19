@@ -2,6 +2,7 @@ package com.example.lr5_;
 
 import android.os.Bundle;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
@@ -13,15 +14,15 @@ import android.widget.Toast;
 
 public class TextFragment extends Fragment {
 
-    EditText FIO,Email;
+//    EditText FIO,Email;
 
-
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-    }
+//    @Override
+//    public void onCreate(@Nullable Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+////
+////        FIO.findViewById(R.id.editText_FIO);
+////        Email.findViewById(R.id.editTextEmail);
+//    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
