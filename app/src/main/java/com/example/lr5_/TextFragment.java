@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.Toast;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -73,6 +74,7 @@ public class TextFragment extends Fragment {
     public void form_btn(View view) {
         FIO.setText("");
         Email.setText("");
-
+//        Toast myToast= Toast.makeText(getApplicationContext(),"УСПЕХ!",Toast.LENGTH_SHORT);
+//        myToast.show();
     }
 }
