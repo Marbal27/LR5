@@ -21,9 +21,9 @@ import android.widget.Toast;
 
 public class BellFragment extends Fragment {
 
-    private static final String CHANEL_ID = "ch1";
-    private NotificationManagerCompat notificationManagerCompat;
-    Button bell_btn;
+//    private static final String CHANEL_ID = "ch1";
+//    private NotificationManagerCompat notificationManagerCompat;
+//    Button bell_btn;
 
 
 
@@ -35,16 +35,16 @@ public class BellFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_bell, container, false);
     }
 
-    @Override
-    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-        bell_btn = (Button) view.findViewById(R.id.btn_form);
-
-        bell_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
-    }
+//    @Override
+//    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+//        super.onViewCreated(view, savedInstanceState);
+//        bell_btn = (Button) view.findViewById(R.id.btn_form);
+//
+//        bell_btn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//
+//            }
+//        });
+//    }
 }
